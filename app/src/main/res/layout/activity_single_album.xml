@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        <com.cesards.cropimageview.CropImageView
+            xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/dialogArt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            custom:crop="centerTop"/>
+        <TextView
+            android:id="@+id/dialogAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:singleLine="true"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Album Name"
+            android:layout_alignBottom="@id/dialogArt"
+            android:background="#60000000"/>
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/songlist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"></ListView>
+</LinearLayout>

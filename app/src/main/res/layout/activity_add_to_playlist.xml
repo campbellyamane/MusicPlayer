@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <LinearLayout
+        android:paddingTop="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/create_playlist"
+            android:paddingLeft="24dp"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:textSize="16dp"
+            android:layout_height="32dp"
+            android:text="Create New Playlist"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"/>
+        <ListView
+            android:id="@+id/playlist_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

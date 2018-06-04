@@ -1,0 +1,10 @@
+#Thu May 31 13:04:00 PDT 2018
+path.2=classes.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=/Users/campbellyamane/AndroidStudioProjects/MusicPlayer/app/build/intermediates/transforms/dexMerger/debug/12
+base.1=/Users/campbellyamane/AndroidStudioProjects/MusicPlayer/app/build/intermediates/transforms/dexMerger/debug/14
+base.0=/Users/campbellyamane/AndroidStudioProjects/MusicPlayer/app/build/intermediates/transforms/dexMerger/debug/13
